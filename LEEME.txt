@@ -1,0 +1,12 @@
+Thor Veterinaria - sitio web (separado en archivos)
+
+index.html        Página pública
+css/styles.css    Estilos
+js/data.js        Servicios, especialistas y artículos (editable)
+js/app.js         Lógica: reserva con horas libres, blog, tema, formularios
+assets/           Logo y favicon
+
+Abrir: doble clic en index.html (no necesita servidor).
+Demo: las citas se guardan en el navegador (localStorage). Para conectar la base de datos,
+reemplaza el objeto API al inicio de js/app.js por llamadas fetch a la API ASP.NET Core.
+Pendiente de completar: dirección real en index.html (JSON-LD, contacto y mapa) y fotos reales en "Antes y después".
